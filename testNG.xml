@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite">
+
+    <test name="All Tests">
+        <classes>
+            <class name="tests.AuthTest"/>
+            <class name="tests.customer.CartCustomerTest"/>
+            <class name="tests.customer.CartGuessTest"/>
+            <class name="tests.customer.RequestCustomTest"/>
+            <class name="tests.customer.ChangePasswordTest"/>
+            <class name="tests.customer.OrderTrackingTest"/>
+            <class name="tests.customer.RegisterTest"/>
+            <class name="tests.admin.EmployeeCreateTest"/>
+            <class name="tests.admin.EmployeeEditTest"/>
+            <class name="tests.admin.EmployeeSearchTest"/>
+            <class name="tests.admin.OrderTrackingTest"/>
+        </classes>
+    </test>
+
+</suite>
